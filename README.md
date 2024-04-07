@@ -80,9 +80,5 @@ Member's can register as a new member or sign in using their ID alone. They are 
 
 `main()`: Serves as the entry point for the script, providing users with options to sign in, register, or exit, and navigating to the appropriate functionality based on their choice.<br>
 
-
-**NOT SHOWN/NEEDED IN VIDEO**<br>
-when a user decides to exit, the `DROP TABLE students;` command runs and deletes the table. <br>
-
 Video Demo:
 https://youtu.be/GgFBXbvQFo4
