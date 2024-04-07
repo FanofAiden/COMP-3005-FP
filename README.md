@@ -31,6 +31,9 @@ Create the `finalassignment` database<br>
 Once the program is running, you are given options to login, register, or exit:<br>
 **ALL INPUTED DATA MUST BE WITHIN CONSTRAINTS**<br>
 
+<br> Admin Function<br>
+<br> Admin can manage room bookings for all sessions. Admin monitors equipment maintenance, meaning when equipment was last checked and when it should be checked next. Admin also updates class scheduling for both trainer and memebers as well as view billing and payment for members.
+
 <br> Member Functions <br>
 <br> Member's can register as a new member or sign in using their ID alone. They are able to view their signed up classes and classes to sign up as well as achievements in their fitness journey. They can see their on file Health Statistics and they are able to update personal info aswell. All avaiable classes are displayed to the member when they navigate through the menu and are prompted to enter the id of the course they would like to enroll in. <br>
 
