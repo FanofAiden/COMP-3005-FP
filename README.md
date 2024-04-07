@@ -5,8 +5,7 @@ Final Project for COMP 3005: Health and Fitness Club Management System<br>
 
 This is a Python program that interacts with a PostgreSQL server. It provides functionality for a simple Fitness club management system.<br>
 
-Setup:
-
+<H1> Setup </H1>
 - Have Python installed on machine.
 - Run the following command in the shell of your choice and within the directory of this folder to install psycopg2
   `pip install psycopg2`
