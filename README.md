@@ -1,4 +1,4 @@
-Momo Radaideh 101292701
+Momo Radaideh 101292701<br>
 Aiden Fan 101266368
 Final Project for COMP 3005: Health and Fitness Club Management System
 
