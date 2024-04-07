@@ -1,3 +1,4 @@
+<h1> Authors and Summary of Application.</h1>
 Momo Radaideh 101292701<br>
 Aiden Fan 101266368<br>
 Final Project for COMP 3005: Health and Fitness Club Management System<br>
@@ -18,7 +19,10 @@ Create the `finalassignment` database<br>
   This is done in the `DDL` sql file.<be>
   Input these commands into the SQL Shell (psql)<br>
     Make sure you're inside the `finalassignment` database<br>
-<h1> IMPORTANT  NOTES FOR STARTUP</h1>
+
+<span style="color:red">
+<h2> IMPORTANT  NOTES FOR STARTUP</h2>
+</span>
 <p> You must go into the `db_config` dictionary object in the app.py file to modify the info to your liking. For example, if you have a custom pgadmin4 login (username and/or password) update with your personal info there. You must also have created the database called `finalassignment` before running application. </p>
   <br> Before running the program, in the main() function, there are some options to run this program.  Comment/Uncomment if youd like to ...<br>
   <br> 1. loadDDL() loads the DDL file. ONLY RUN THIS ON FIRST TIME BOOT, OR ELSE YOU WILL FACE ERRORS IF YOU DO NOT DROP TABLES AFTER. <br>
