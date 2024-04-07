@@ -1,8 +1,8 @@
 Momo Radaideh 101292701<br>
-Aiden Fan 101266368
-Final Project for COMP 3005: Health and Fitness Club Management System
+Aiden Fan 101266368<br>
+Final Project for COMP 3005: Health and Fitness Club Management System<br>
 
-This is a Python program that interacts with a PostgreSQL server. It provides functionality for a simple Fitness club management system.
+This is a Python program that interacts with a PostgreSQL server. It provides functionality for a simple Fitness club management system.<br>
 
 Setup:
 
