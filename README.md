@@ -18,7 +18,11 @@ Create the `finalassignment` database<br>
   This is done in the `DDL` sql file.<be>
   Input these commands into the SQL Shell (psql)<br>
     Make sure you're inside the `finalassignment` database<br>
-    
+
+  <br> Before running the program, in the main() function, there are some options to run this program.  Comment/Uncomment if youd like to ...<br>
+  <br> 1. loadDDL() loads the DDL file. ONLY RUN THIS ON FIRST TIME BOOT, OR ELSE YOU WILL FACE ERRORS IF YOU DO NOT DROP TABLES AFTER. <br>
+  <br> 2. loadDML() loads the DML File. ONLY RUN THIS FILE ON FIRST BOOT OR ELSE YOU WILL FACE ERRORS. This is sample data for the database <br>
+  <br> 3. dropAllTables() drops a;ll tables. If you want to reset database after closing app, leave uncommenetd. with this uncommneted you can pair with previous two functions so every boot is a fresh wipe of newly added     data. <br>
 Once you run the program, the tables are created and populated with inital data.<br>
 
 Once the program is running, you are given options to login, register, or exit:<br>
