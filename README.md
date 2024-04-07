@@ -15,37 +15,21 @@ If you choose to use your machine's cmd, run the following command to run the pr
 The program is connected to the specific database called `finalassignment`. The username is `postgres` and the password is `postgres`. The host is `localhost`  and the port is `5432` .<br>
 
 Create the `finalassignment` database<br>
-  This is done in the `DDL` sql file.<be>
+  This is done in the `DDL` sql file.<br>
   Input these commands into the SQL Shell (psql)<br>
-    Make sure you're inside the `finalassignment` database<br>
-
-<span style="color:red">
+  Make sure you're inside the `finalassignment` database<br>
+    
 <h2> IMPORTANT  NOTES FOR STARTUP</h2>
-</span>
+
 <p> You must go into the `db_config` dictionary object in the app.py file to modify the info to your liking. For example, if you have a custom pgadmin4 login (username and/or password) update with your personal info there. You must also have created the database called `finalassignment` before running application. </p>
   <br> Before running the program, in the main() function, there are some options to run this program.  Comment/Uncomment if youd like to ...<br>
   <br> 1. loadDDL() loads the DDL file. ONLY RUN THIS ON FIRST TIME BOOT, OR ELSE YOU WILL FACE ERRORS IF YOU DO NOT DROP TABLES AFTER. <br>
   <br> 2. loadDML() loads the DML File. ONLY RUN THIS FILE ON FIRST BOOT OR ELSE YOU WILL FACE ERRORS. This is sample data for the database <br>
   <br> 3. dropAllTables() drops a;ll tables. If you want to reset database after closing app, leave uncommenetd. with this uncommneted you can pair with previous two functions so every boot is a fresh wipe of newly added     data. <br>
-Once you run the program, the tables are created and populated with inital data.<br>
 
+<h1> Program Navigation </h1>
 Once the program is running, you are given options to login, register, or exit:<br>
 **ALL INPUTED DATA MUST BE WITHIN CONSTRAINTS**<br>
-If your input is:<br>
-0. This exits the program<br>
-1. This signs the user in by asking them to input a valid ID<br>
-       The initial IDs are as follows:<br>
-       Admin: 0<br>
-       Mark, trainer: 100001<br>
-       Nolan, trainer: 100002<br>
-       Allen, trainer: 100003<br>
-       Aiden, member: 1<br>
-       Momo, member: 2<br>
-       **ANY NEW MEMBER THAT GETS ADDED WILL START FROM 3 AND GO UP**<br>
-       If user decides to log in as Admin:
-             **You're taken to the admin dashboard, if you choose:**
-             1. this allows admin to see available rooms
-3. This calls the `register_member()` function where users can register and be created in the database
 
 <br> Member Functions <br>
 <br> Member's can register as a new member or sign in using their ID alone. They are able to view their signed up classes and classes to sign up as well as achievements in their fitness journey. They can see their on file Health Statistics and they are able to update personal info aswell. All avaiable classes are displayed to the member when they navigate through the menu and are prompted to enter the id of the course they would like to enroll in. <br>
