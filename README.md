@@ -43,6 +43,8 @@ If your input is:<br>
              1. this allows admin to see available rooms
 3. This calls the `register_member()` function where users can register and be created in the database
 
+<br> Member Functions <br>
+<br> Member's can register as a new member or sign in using their ID alone. They are able to view their signed up classes and classes to sign up as well as achievements in their fitness journey. They can see their on file Health Statistics and they are able to update personal info aswell. All avaiable classes are displayed to the member when they navigate through the menu and are prompted to enter the id of the course they would like to enroll in. <br>
 
 Documentation:<br>
 `getAllStudents()` - function that retrieves and displays all records from the students table <br>
