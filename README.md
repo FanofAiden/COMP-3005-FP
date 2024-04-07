@@ -11,10 +11,15 @@ Setup:
   `pip install psycopg2`
 
 Instructions:<br>
-If you choose to use your machine's cmd, run the following command to run the program: `python application-code.py`<br>If you choose to run on an IDE like VSCode, just run it<br><br>
-The program is connected to the specific database called `finalassignment`. The username is `TA` and the password is `TA2024`. The host is `localhost`  and the port is `5432` .<br>
+If you choose to use your machine's cmd, run the following command to run the program: `app.py`<br>If you choose to run on an IDE like VSCode, just run it<br><br>
+The program is connected to the specific database called `finalassignment`. The username is `postgres` and the password is `postgres`. The host is `localhost`  and the port is `5432` .<br>
 
-Once you run the program, the database `finalassignment` and the tables are both created. The tables are also populated with inital data.<br>
+Create the `finalassignment` database<br>
+  This is done in the `DDL` sql file.<be>
+  Input these commands into the SQL Shell (psql)<br>
+    Make sure you're inside the `finalassignment` database<br>
+    
+Once you run the program, the tables are created and populated with inital data.<br>
 
 Once the program is running, you are given options to login, register, or exit:<br>
 **ALL INPUTED DATA MUST BE WITHIN CONSTRAINTS**<br>
@@ -28,9 +33,10 @@ If your input is:<br>
        Allen, trainer: 100003<br>
        Aiden, member: 1<br>
        Momo, member: 2<br>
-       **ANY NEW MEMBER THAT GETS ADDED WILL START FROM 3 AND GO UP**
-
-       
+       **ANY NEW MEMBER THAT GETS ADDED WILL START FROM 3 AND GO UP**<br>
+       If user decides to log in as Admin:
+             **You're taken to the admin dashboard, if you choose:**
+             1. this allows admin to see available rooms
 3. This calls the `register_member()` function where users can register and be created in the database
 
 
