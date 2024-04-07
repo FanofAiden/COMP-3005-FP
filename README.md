@@ -31,10 +31,13 @@ Create the `finalassignment` database<br>
 Once the program is running, you are given options to login, register, or exit:<br>
 **ALL INPUTED DATA MUST BE WITHIN CONSTRAINTS**<br>
 
-<br> Admin Function<br>
+<h4> Admin Functions </h4>
 <br> Admin can manage room bookings for all sessions. Admin monitors equipment maintenance, meaning when equipment was last checked and when it should be checked next. Admin also updates class scheduling for both trainer and memebers as well as view billing and payment for members.
 
-<br> Member Functions <br>
+<h4> Trainer Functions </h4>
+<br> Trainers can set their availability (days and times) as well as update their availability whenever they want. Trainers can also view a specific member's profile and all their information by searching their name. <br>
+
+<h4> Member Functions </h4>
 <br> Member's can register as a new member or sign in using their ID alone. They are able to view their signed up classes and classes to sign up as well as achievements in their fitness journey. They can see their on file Health Statistics and they are able to update personal info aswell. All avaiable classes are displayed to the member when they navigate through the menu and are prompted to enter the id of the course they would like to enroll in. <br>
 
 <h1> Function Summaries. </h1>
