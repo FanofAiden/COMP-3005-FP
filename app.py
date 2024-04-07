@@ -4,8 +4,8 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 db_config = {
     'dbname': 'finalassignment',
-    'user': 'TA',
-    'password': 'TA2024',
+    'user': 'postgres',
+    'password': 'postgres',
     'host': 'localhost'
 }
 
