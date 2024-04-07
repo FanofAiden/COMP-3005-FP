@@ -661,8 +661,8 @@ def main():
 
 if __name__ == "__main__":
     # if you would load to insert the tables and data, uncomment these two lines
-    # loadDDL(db_config)
-    # loadDML(db_config)
+    loadDDL(db_config)
+    loadDML(db_config)
     main()
     # if you would like to reset database on closure, uncomment this line.
-    # dropAllTables(db_config)
+    dropAllTables(db_config)
