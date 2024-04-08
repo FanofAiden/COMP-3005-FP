@@ -81,4 +81,4 @@ Member's can register as a new member or sign in using their ID alone. They are 
 `main()`: Serves as the entry point for the script, providing users with options to sign in, register, or exit, and navigating to the appropriate functionality based on their choice.<br>
 
 Video Demo:
-https://youtu.be/GgFBXbvQFo4
+https://youtu.be/hL_xBZfE5Do?si=UkWYVu2M1PR1ZulU
